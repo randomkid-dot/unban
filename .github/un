@@ -1,0 +1,9 @@
+using System;
+
+public class TimeManager
+{
+    public static DateTime GetFutureTime()
+    {
+        return DateTime.UtcNow.AddDays(56); // 8 weeks ahead
+    }
+}
